@@ -1,0 +1,13 @@
+public class CompareNumbers {
+    public static void main(String[] args) {
+        // Set predefined values for num1 and num2
+        int num1 = 10;
+        int num2 = 20;
+
+        // Compare num1 and num2 using a conditional statement
+        int largerNumber = (num1 > num2) ? num1 : num2;
+
+        // Print out the larger of the two values
+        System.out.println("The larger number is: " + largerNumber);
+    }
+}
